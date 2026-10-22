@@ -1,0 +1,41 @@
+# macOS
+.DS_Store
+._*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environments (uv)
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# MATLAB
+*.asv
+*.m~
+*.autosave
+slprj/
+*.slxc
+*.mexmaci64
+*.mexmaca64
+*.mexa64
+*.mexw64
+
+# Tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Environment / secrets
+.env

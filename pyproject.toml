@@ -1,0 +1,21 @@
+[project]
+name = "mit-2160"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Eddy Chen", email = "eddyc@mit.edu" }
+]
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "torch>=2.14.1",
+]
+
+[project.scripts]
+mit-2160 = "mit_2160:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
